@@ -1,0 +1,39 @@
+/* General body styling */
+body {
+    background-color: yellow;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Center container for buttons */
+.container {
+    text-align: center;
+}
+
+/* Button styling */
+button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+/* Button hover effects */
+button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+/* Anchor tag styling to prevent underline */
+a {
+    text-decoration: none;
+}
